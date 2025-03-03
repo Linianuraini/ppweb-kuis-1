@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendidikan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+        /* Navbar Styling */
+        
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        
+        nav h1 {
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: 0.3s;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        
+        nav ul li a:hover {
+            background: #f4a261;
+            color: #2a5298;
+        }
+        /* Bagian Riwayat Pendidikan */
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .education {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            width: 350px;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, background 0.3s;
+            backdrop-filter: blur(5px);
+            min-height: 250px;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #f4a261;
+        }
+        
+        .card p {
+            font-size: 16px;
+            color: white;
+            opacity: 0.9;
+            text-align: justify;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1>My Portofolio</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skill.html">Skill</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bagian Riwayat Pendidikan -->
+    <h1 id="education">Riwayat Pendidikan</h1>
+
+    <section class="education">
+        <div class="card">
+            <h2>Sekolah Dasar</h2>
+            <p>Saya memulai pendidikan dasar di SD Negeri 09 Bengkulu Utara, sebuah sekolah yang berfokus pada pembentukan karakter serta pengenalan berbagai ilmu dasar.
+                <br>Disini saya belajar membaca, menulis, berhitung, serta mengenal nilai-nilai moral dan sosial.
+                <br>Selain itu, saya juga mulai mengembangkan keterampilan dasar dalam seni dan olahraga.</p>
+        </div>
+
+        <div class="card">
+            <h2>Sekolah Menengah Pertama</h2>
+            <p>Saya melanjutkan pendidikan di MTS N 1 Bengkulu Utara, di mana saya mulai
+                <br>mengembangkan minat dalam teknologi dan sains. Pada tahap ini, saya mulai mempelajari mata pelajaran seperti Matematika yang lebih kompleks, Fisika, serta Dasar-Dasar Komputer.
+                <br>Saya juga aktif dalam kegiatan organisasi yaitu OSIS dan ekstrakurikuler seperti klub robotika dan paskibra. </p>
+        </div>
+
+        <div class="card">
+            <h2>Sekolah Menengah Atas</h2>
+            <p>Saya menempuh SMA di SMA Negeri 2 Bengkulu Utara, tempat di mana saya semakin fokus dalam bidang Teknologi Informasi.
+                <br>Saya memilih jurusan Ilmu Pengetahuan Alam (IPA) dengan harapan dapat lebih mendalami dunia Sains dan Teknologi. Selama SMA, saya sering mengikuti kompetisi FLSN2N, olimpiade sains Fisika dan Matematika, dan aktif di organisasi OSIS
+                dan ekstrakurikuler seperti paskib, pikr, klub english serta komputer.</p>
+        </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

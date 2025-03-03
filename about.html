@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        
+        nav h1 {
+            font-size: 24px;
+            color: white;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #f4a261;
+        }
+        
+        .about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding-top: 100px;
+        }
+        
+        .box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 50px;
+            border-radius: 15px;
+            width: 500px;
+            text-align: center;
+            transition: transform 0.3s, background 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+        
+        .box:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .box h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #f4a261;
+        }
+        
+        .box p {
+            font-size: 20px;
+            color: #fff;
+            line-height: 1.5;
+        }
+        
+        .icon {
+            font-size: 50px;
+            color: #f4a261;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>My Portofolio</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skill.html">Skill</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about" id="about">
+        <div class="box">
+            <div class="icon">&#128187;</div>
+            <h2>Linia Nur Aini</h2>
+            <p>Saya seorang undergraduate dari Universitas Bengkulu dengan program studi Teknik Informatika. Saya aktif
+                <br>mengembangkan diri pada bidang Informatika, Administrasi Keuagan dan Desain Grafis serta turut berpartisipasi
+                <br>dalam mengikuti kelas bahasa asing. Memiliki kemampuan kreatif dan Inovatif yang membuat saya terbiasa bertanggung jawab dalam bidang pemrograman dan membuat desain poster,
+                <br>twibbon, dan sertifikat.</p>
+        </div>
+    </section>
+</body>
+
+</html>

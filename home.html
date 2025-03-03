@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Linia Nur Aini</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+            text-align: center;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        
+        nav h1 {
+            font-size: 24px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #f4a261;
+        }
+        
+        .home {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-top: 60px;
+        }
+        
+        .content {
+            max-width: 600px;
+        }
+        
+        .content h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .content h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            opacity: 0.8;
+        }
+        
+        .buttons .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            background: #f4a261;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        
+        .buttons .btn-secondary {
+            background: #2a9d8f;
+        }
+        
+        .buttons .btn:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+        
+        .image img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>My Portofolio</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skill.html">Skill</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="content">
+            <h2>Hello, I'm Linia Nur Aini</h2>
+            <h3>I'm a Web Developer & Programmer</h3>
+            <p>Saya adalah mahasiswa Informatika Universitas Bengkulu sebagai
+                <br>seorang pengembang web yang berfokus pada teknologi modern
+                <br>untuk menciptakan pengalaman digital yang luar biasa.</p>
+            <div class="buttons">
+                <a href="skill.html" class="btn">Lihat Skill</a>
+                <a href="contact.html" class="btn btn-secondary">Hubungi Saya</a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="linia.jpg" alt="Foto Profil">
+        </div>
+    </section>
+
+    <script>
+        document.getElementById("name").textContent = "Linia Nur Aini"; // Ganti dengan nama Anda
+    </script>
+</body>
+
+</html>
